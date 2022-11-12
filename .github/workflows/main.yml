@@ -9,5 +9,6 @@ jobs:
       uses: elgohr/Publish-Docker-Github-Action@main
       with:
         name: cfbsks/mst
+        tag: basic
         username: ${{ secrets.DOCKER_USERNAME}}
         password: ${{secrets.DOCKER_PASSWORD}}

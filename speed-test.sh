@@ -19,6 +19,7 @@ PLAIN='\033[0m'
 
 declare -A mirrorsA_com
 mirrorsA_com=(
+  [opentuna]="https://opentuna.cn/"
   [tencent]="https://mirrors.cloud.tencent.com/"
   [aliyun]="https://mirrors.aliyun.com/"
   [163]="https://mirrors.163.com/"

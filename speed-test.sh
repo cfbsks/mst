@@ -46,7 +46,7 @@ mirrorsB=(
   [zju]="https://mirrors.zju.edu.cn/"
 )
 
-file="ubuntu/dists/trusty/universe/source/Sources.gz"
+file="ubuntu-releases/releases/trusty/ubuntu-14.04.6-server-i386.iso"
 
 ######################################################################################################
 # function

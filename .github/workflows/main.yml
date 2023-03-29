@@ -6,7 +6,7 @@ jobs:
     steps:
     - uses: actions/checkout@main
     - name: Publish docker images
-      uses: elgohr/Publish-Docker-Github-Action@main
+      uses: elgohr/Publish-Docker-Github-Action@v5
       with:
         name: cfbsks/mst
         username: ${{ secrets.DOCKER_USERNAME}}
